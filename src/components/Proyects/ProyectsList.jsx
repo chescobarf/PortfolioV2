@@ -10,17 +10,11 @@ export const ProyectsList = () => {
   }, []);
 
   return data ? (
-    data.map((e) => (
-      <section className="resume-section" id="projects">
-        <div className="resume-section-content">
-          <h2 className="mb-5">Proyectos</h2>
-          <div className="subheading mb-3">Proyectos realizados</div>
-          <div className="grid projects">
-            <ProyectCard data={e} />
-          </div>
-        </div>
-      </section>
-    ))
+    <div className="grid projects grid-cols-2 md:grid-cols-4">
+      {data.map((e) => (
+        <ProyectCard data={e} />
+      ))}
+    </div>
   ) : (
     <Loading />
   );
