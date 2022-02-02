@@ -1,5 +1,5 @@
 import React from "react";
-
+import formatDate from "../../helpers/formatDate";
 export const ProjectCard = ({ data }) => {
   return (
     <a
@@ -22,6 +22,7 @@ export const ProjectCard = ({ data }) => {
 
       <div className="card-body p-5 flex flex-col">
         <h4 className="card-title text-2xl uppercase">{data.name}</h4>
+        <p>{formatDate(data.created_at)}</p>
       </div>
     </a>
   );

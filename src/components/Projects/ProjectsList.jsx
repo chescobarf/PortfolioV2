@@ -10,7 +10,7 @@ export const ProjectsList = () => {
   }, []);
 
   return data ? (
-    <div className="grid gap-4 projects grid-cols-2 md:grid-cols-4 xl:grid-cols-6">
+    <div className="grid gap-4 projects grid-cols-2 md:grid-cols-4">
       {data.map((e) => (
         <ProjectCard data={e} key={e.id} />
       ))}
