@@ -18,7 +18,7 @@ export const experience = [
         to: "Marzo 2021"
     },
     {
-        id: 2,
+        id: 3,
         title: "Customer Excellence",
         institution: "VTEX Chile",
         institutionURL: `https://www.vtex.com/`,
