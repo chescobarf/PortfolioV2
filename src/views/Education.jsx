@@ -2,7 +2,7 @@ import React from "react";
 import { Item } from "../components/Item/Item";
 import { education } from "../constants/education";
 
-export const Education = () => {
+const Education = () => {
   return (
     <div>
       {education.reverse().map((e) => {
@@ -11,3 +11,5 @@ export const Education = () => {
     </div>
   );
 };
+
+export default Education;
