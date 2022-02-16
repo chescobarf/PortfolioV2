@@ -5,8 +5,9 @@ import { ProjectsList } from "../components/Projects/ProjectsList";
 import SectionLayout from "../layout/Section/SectionLayout";
 import Profile from "./Profile";
 import Experience from "./Experience";
-import { Education } from "./Education";
-
+import Education from "./Education";
+import Skills from "./Skills";
+import Certifications from "./Certifications";
 const Home = () => {
   return (
     <div>
@@ -18,11 +19,17 @@ const Home = () => {
         <SectionLayout title="Experience" id="Experience">
           <Experience />
         </SectionLayout>
-        <SectionLayout title="Education" id="Education">
-          <Education />
-        </SectionLayout>
         <SectionLayout title="Projects" id="Projects">
           <ProjectsList />
+        </SectionLayout>
+        <SectionLayout title="Skills" id="Skills">
+          <Skills />
+        </SectionLayout>
+        <SectionLayout title="Certifications and Courses" id="Certifications">
+          <Certifications />
+        </SectionLayout>
+        <SectionLayout title="Education" id="Education">
+          <Education />
         </SectionLayout>
       </Container>
     </div>
