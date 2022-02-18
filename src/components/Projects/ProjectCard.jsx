@@ -8,13 +8,13 @@ export const ProjectCard = ({ data }) => {
     >
       {data.screenshot_url ? (
         <img
-          className="card-img-top rounded-t-lg"
+          className="card-img-top rounded-t-lg w-full object-fill h-36 xl:h-60"
           src={data.screenshot_url}
           alt={data.name}
         />
       ) : (
         <img
-          className="card-img-top rounded-t-lg max-h-48 w-full object-cover"
+          className="card-img-top rounded-t-lg w-full object-fill h-36 xl:h-60"
           src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc="
           alt={data.name}
         />

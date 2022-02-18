@@ -533,6 +533,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3.5rem;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
 .max-h-48 {
   max-height: 12rem;
 }
@@ -700,6 +718,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-8 {
@@ -1046,5 +1069,11 @@ h6 {
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:h-60 {
+    height: 15rem;
   }
 }
