@@ -2,7 +2,7 @@ import React from "react";
 
 const Subtitle = () => {
   return (
-    <ul className="flex gap-1 text-md text-slate-600 font-medium subtitle">
+    <ul className="flex flex-col lg:flex-row gap-1 text-md text-slate-600 font-medium subtitle">
       <li className="h3 text-2xl">INGENIERO INFORMÁTICO</li>
       <li className="h3 text-2xl">DESARROLLADOR</li>
       <li className="h3 text-2xl">SANTIAGO DE CHILE</li>

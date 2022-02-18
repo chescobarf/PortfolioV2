@@ -4,7 +4,7 @@ import { DiTerminalBadge } from "react-icons/di";
 const Certifications = () => {
   const [certifications] = useState(certification);
   return (
-    <ul className="grid grid-cols-3 gap-12">
+    <ul className="grid lg:grid-cols-3 grid-cols-2 lg:gap-12 gap-8">
       {certifications.map((e) => (
         <li key={e.nombre}>
           <a className="flex gap-2 hover:animate-pulse hover:cursor-pointer">

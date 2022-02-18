@@ -8,7 +8,7 @@ const SectionLayout = ({ children, id, title }) => {
       id={id}
     >
       <div className="resume-section-content w-full">
-        <SectionTitle title={title} />
+        {title ? <SectionTitle title={title} /> : undefined}
         {children}
       </div>
     </section>

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Item = ({ data }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-between mb-8 ">
+    <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between mb-8 ">
       <div className="flex-grow">
         <h3 className="mb-1 text-4xl text-gray-700 uppercase">{data.title}</h3>
         <div className="subheading mb-3 text-indigo-700 uppercase text-2xl h4">
