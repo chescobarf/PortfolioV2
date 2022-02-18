@@ -1,6 +1,7 @@
 import React from "react";
 import { navigation } from "../../constants/navigation";
 import { HashLink as Link } from "react-router-hash-link";
+import MenuBurger from "../MenuBurger/MenuBurger";
 
 const Nav = () => {
   return (
@@ -17,6 +18,10 @@ const Nav = () => {
             </Link>
           </li>
         ))}
+
+        {/* TODO */}
+        {/* FUNCIONALIDAD DE MENU */}
+        <MenuBurger />
       </ul>
     </div>
   );
