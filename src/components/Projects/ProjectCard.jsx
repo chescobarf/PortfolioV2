@@ -5,6 +5,7 @@ export const ProjectCard = ({ data }) => {
     <a
       className="card text-white bg-dark mb-3 d-inline-block max-w-xs hover:cursor-pointer transition-shadow shadow-xl shadow-slate-500 hover:shadow-blue-900 rounded-lg bg-gradient-to-br from-indigo-700 via-blue-600 to-sky-600"
       href={data.ssl_url}
+      target="_blank"
     >
       {data.screenshot_url ? (
         <img
