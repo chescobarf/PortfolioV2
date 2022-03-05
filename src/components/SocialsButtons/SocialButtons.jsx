@@ -28,7 +28,8 @@ const SocialButtons = () => {
       </a>
       <a
         className="grid place-content-center h-14 w-14 bg-gray-700 rounded-full text-2xl text-white hover:bg-orange-600 hover:animate-pulse"
-        href="https://api.whatsapp.com/send?phone=56977031115"
+        href="https://drive.google.com/file/d/18FpVHH6tSBOblUWIdDnJm_XPgD71Aiog/view?usp=sharing"
+        target="_blank"
       >
         <BsFillCloudArrowDownFill />
       </a>
