@@ -25,6 +25,15 @@ export const experience = [
         description: `Encargado de entregar soporte de la plataforma VTEX a distintos clientes y agencias implementadoras. Enfocado en el Front End y VTEX IO, Framework de desarrollo para las tiendas compuesto por tecnologias como React, NodeJS, GraphQL.
         Creador de una de las primeras APPS en VTEX IO por VTEX Chile`,
         from: "Marzo 2021",
+        to: "Abril 2022"
+    },
+    {
+        id: 4,
+        title: "Frontend Engineer",
+        institution: "Autocred",
+        institutionURL: `https://www.autocred.cl/`,
+        description: ``,
+        from: "Abril 2022",
         to: "Actualidad"
     }
 ]
