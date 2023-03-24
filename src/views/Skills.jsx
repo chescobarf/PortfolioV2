@@ -10,24 +10,24 @@ import {
   SiTailwindcss,
   SiGithub,
   SiMysql,
-  SiMaterialui,
   SiMicrosoftsqlserver,
   SiFirebase,
   SiSlack,
 } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
+import { FaSass, FaVuejs } from "react-icons/fa";
 import { VTEXIcon } from "../components/VTEXIcon";
+import { ModyoIcon } from "../components/ModyoIcon";
 const Skills = () => {
   return (
     <div>
       <Skill title="Front End">
+        <FaVuejs/>
+        <SiReact />
+        <SiJavascript />
+        <SiTailwindcss />
         <SiHtml5 />
         <SiCss3 />
         <FaSass />
-        <SiJavascript />
-        <SiReact />
-        <SiTailwindcss />
-        <SiMaterialui />
       </Skill>
       <Skill title="Back End">
         <SiNodedotjs />
@@ -37,6 +37,7 @@ const Skills = () => {
         <SiFirebase />
       </Skill>
       <Skill title="Extras">
+        <ModyoIcon />
         <VTEXIcon />
         <SiGithub />
         <SiSlack />
