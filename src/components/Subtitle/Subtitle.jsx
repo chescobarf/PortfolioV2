@@ -7,7 +7,7 @@ const Subtitle = () => {
       <li className="h3 text-2xl">DESARROLLADOR</li>
       <li className="h3 text-2xl">SANTIAGO DE CHILE</li>
       <li className="h3 text-2xl text-blue-700 hover:animate-pulse">
-        <a href="mailto:CH.ESCOBARF@OUTLOOK.COM">CH.ESCOBARF@OUTLOOK.COM</a>
+        <a href="mailto:CH.ESCOBARF@GMAIL.COM">CH.ESCOBARF@GMAIL.COM</a>
       </li>
     </ul>
   );
