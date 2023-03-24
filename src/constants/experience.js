@@ -12,7 +12,7 @@ export const experience = [
         id: 2,
         title: "Front End Developer",
         institution: "Rompecabeza Digital",
-        institutionURL: `https://www.scotiabankchile.cl/`,
+        institutionURL: `https://www.rompecabeza.cl/`,
         description: `Desarrollador de distintas landings pages y sitios web para clientes como Vitamina, Flex, Habitat, Kaufmann. Trabaje de la mano con el area de UX/UI para materializar los distintos disenos propuestos, haciendo uso de Javascript y SCSS como libreria para CSS.`,
         from: "Mayo 2020",
         to: "Marzo 2021"
@@ -29,11 +29,20 @@ export const experience = [
     },
     {
         id: 4,
-        title: "Frontend Engineer",
+        title: "Front End Engineer",
         institution: "Autocred",
         institutionURL: `https://www.autocred.cl/`,
-        description: ``,
+        description: `Proyecto realizado en 3 meses, en donde fui encargado de proponer la arquitectura que se utilizaria en el front-end, coordinar con el equipo de backend para desarrollar las API que se requerian para el correcto funcionamiento del sitio y el desarrollo completo de este basado en una arquitectura headless. El proyecto fue realizado haciendo uso de VUE 3, Nuxt 3, Tailwind, Pinia`,
         from: "Abril 2022",
+        to: "Junio 2022"
+    },
+    {
+        id: 5,
+        title: "Front End Developer",
+        institution: "BBK+2Brains",
+        institutionURL: `https://www.bbk2brains.com/`,
+        description: `Desarrollador para cliente Banco de Chile. Encargado de llevar a cabo la migración a plataforma Modyo 9, dentro de mis tareas esta la creacion de componentes para replicar lo que existe actualmente en el sitio publico. Ademas he creado distintos proyectos para ayudar al equipo, entre los que se encuentran: Comando npx para la creacion de proyectos con la base a utilizarse - Proyecto para generacion de documentacion basado en Markdown - Landing con libreria de iconos del sitio, con su respectivo buscador y click and copy - Packages npm con configuraciones tailwind - Proyecto Base con componentes genericos del sitio`,
+        from: "Junio 2022",
         to: "Actualidad"
     }
 ]
