@@ -14,7 +14,7 @@ import {
   SiFirebase,
   SiSlack,
 } from "react-icons/si";
-import { FaSass, FaVuejs } from "react-icons/fa";
+import { FaSass, FaVuejs, FaNpm } from "react-icons/fa";
 import { VTEXIcon } from "../components/VTEXIcon";
 import { ModyoIcon } from "../components/ModyoIcon";
 const Skills = () => {
@@ -37,6 +37,7 @@ const Skills = () => {
         <SiFirebase />
       </Skill>
       <Skill title="Extras">
+        <FaNpm/>
         <ModyoIcon />
         <VTEXIcon />
         <SiGithub />
