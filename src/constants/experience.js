@@ -41,7 +41,7 @@ export const experience = [
         title: "Front End Developer",
         institution: "BBK+2Brains",
         institutionURL: `https://www.bbk2brains.com/`,
-        description: `Desarrollador para cliente Banco de Chile. Encargado de llevar a cabo la migración a plataforma Modyo 9, dentro de mis tareas esta la creacion de componentes para replicar lo que existe actualmente en el sitio publico. Ademas he creado distintos proyectos para ayudar al equipo, entre los que se encuentran: Comando npx para la creacion de proyectos con la base a utilizarse - Proyecto para generacion de documentacion basado en Markdown - Landing con libreria de iconos del sitio, con su respectivo buscador y click and copy - Packages npm con configuraciones tailwind - Proyecto Base con componentes genericos del sitio`,
+        description: `Desarrollador para cliente Banco de Chile. Encargado de llevar a cabo la migración a plataforma Modyo 9, dentro de mis tareas esta la creacion de componentes para replicar lo que existe actualmente en el sitio publico. Ademas he creado distintos proyectos para ayudar al equipo, entre los que se encuentran: <br> Comando npx para la creacion de proyectos con la base a utilizarse - Proyecto para generacion de documentacion basado en Markdown - Landing con libreria de iconos del sitio, con su respectivo buscador y click and copy - Packages npm con configuraciones tailwind - Proyecto Base con componentes genericos del sitio`,
         from: "Junio 2022",
         to: "Actualidad"
     }
