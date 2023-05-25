@@ -8,10 +8,7 @@ export const Item = ({ data }) => {
         <div className="subheading mb-3 text-indigo-700 uppercase text-2xl h4">
           <a href={data.institutionURL}>{data.institution}</a>
         </div>
-        <p
-          className="text-gray-700"
-          dangerouslySetInnerHTML={data.description}
-        ></p>
+        <p className="text-gray-700">{data.description}</p>
       </div>
       <div className="flex-shrink-0 flex gap-2 text-indigo-800">
         <span className="text-primary">{data.from}</span>
